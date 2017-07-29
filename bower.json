@@ -1,0 +1,23 @@
+{
+  "name": "simpletooltip",
+  "version": "1.0.0",
+  "authors": [
+    "Dennis Dohle <dd@hfci.de>"
+  ],
+  "description": "Simple jQuery-Tooltip",
+  "homepage": "",
+  "main": [
+    "css/simpletooltip.css",
+    "js/simpletooltip.min.js"
+  ],
+  "keywords": [
+    "css",
+    "jquery",
+    "tooltip"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": ">=1.6"
+  },
+  "ignore": []
+}
