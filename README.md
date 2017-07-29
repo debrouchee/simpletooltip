@@ -34,3 +34,17 @@ $(function() {
     $('.tooltip').simpletooltip();
 });
 ```
+
+For dynamic DOM-Manipulation:
+
+```javacript
+    $(document).on({
+        mouseenter: function(event) {
+            $.simpletooltip.show(el, event)`;`
+        },
+        mouseleave: function() {
+            $.simpletooltip.remove();
+        }
+    }, '.tooltip');
+```
+
