@@ -7,8 +7,8 @@
   "description": "Simple jQuery-Tooltip",
   "homepage": "",
   "main": [
-    "css/simpletooltip.min.css",
-    "js/simpletooltip.min.js"
+    "css/simpletooltip.css",
+    "js/simpletooltip.js"
   ],
   "keywords": [
     "css",
