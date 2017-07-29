@@ -1,1 +1,12 @@
-@charset "UTF-8";#simpletooltip{position:absolute;z-index:5000;display:none;max-width:250px;padding:3px 5px;background:#f9eec5;color:#444;font-family:'Arial';font-size:9px;box-shadow:0 1px 3px rgba(0, 0, 0, 0.1)}
+#simpletooltip {
+	position: absolute;
+	z-index: 5000;
+	display: none;
+	max-width: 250px;
+	padding: 3px 5px;
+	background: #000;
+	color: #fff;
+	font-family: 'Arial';
+	font-size: 9px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
