@@ -14,7 +14,7 @@ Simple jQuery Tooltip
 Bower:
 
 ```
-bower install dohnis/simpletooltip --save-dev
+bower install debrouchee/simpletooltip --save-dev
 ```
 
 ***
