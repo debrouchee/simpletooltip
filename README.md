@@ -17,34 +17,42 @@ Bower:
 bower install debrouchee/simpletooltip --save-dev
 ```
 
+Or download js/simpletooltip.min.js and include the script on your page like shown below.
+
 ***
 
 ### Usage
 
-HTML:
+Include script:
+
+```html
+<script src="simpletooltip.min.js"></script>
+```
+
+Markup (example):
 
 ```html
 <a href="index.html" title="<strong>Morn says:</strong><br>It's not revolutionary but a tiny little helper!" class="tooltip">What says Morn?</a>
 ```
 
-JavaScript:
+Initialize:
 
 ```javacript
 $(function() {
-    $('.tooltip').simpletooltip();
+  $('.tooltip').simpletooltip();
 });
 ```
 
-For dynamic DOM-Manipulation:
+Initialize (for work with dynamic DOM-Manipulation):
 
 ```javacript
 $(document).on({
-    mouseenter: function(event) {
-        $.simpletooltip.show(el, event)`;`
-    },
-    mouseleave: function() {
-        $.simpletooltip.remove();
-    }
+  mouseenter: function(event) {
+    $.simpletooltip.show(el, event)`;`
+  },
+  mouseleave: function() {
+    $.simpletooltip.remove();
+  }
 }, '.tooltip');
 ```
 
